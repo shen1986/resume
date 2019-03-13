@@ -316,7 +316,8 @@ a {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: url("/resume/images/header.jpeg") center center no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;
     /* transition: box-shadow .5s linear;
