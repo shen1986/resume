@@ -8,7 +8,7 @@ $(function () {
     var resumeDate = {
         // 首页
         home: {
-            photo: '/resume/images/header.jpeg',
+            photo: 'images/header.jpeg',
             quote: '生活是一种绵延不绝的渴望，渴望不断上升，变得更伟大而高贵。.....',
             desList: [
                 '我叫小小沈',
