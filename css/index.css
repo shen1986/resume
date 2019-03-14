@@ -126,6 +126,10 @@ a {
     align-items: center;
 }
 
+.logo h1 {
+    position: relative;
+}
+
 .header .header-head .logo {
     float: left;
     height: 60px;
@@ -146,6 +150,7 @@ a {
     border-radius: 50%;
     /* 旋转动画 */
     animation: myheader 2s linear infinite;
+    font-size: 0;
 }
 
 @keyframes myheader {

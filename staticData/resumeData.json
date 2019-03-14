@@ -1,4 +1,7 @@
 {
+    "baseInfo" : {
+        "title": "小沈的个人介绍"
+    },
     "home": {
         "photo": "images/header.jpeg",
         "quote": "生活是一种绵延不绝的渴望，渴望不断上升，变得更伟大而高贵。.....",

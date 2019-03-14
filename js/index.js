@@ -55,9 +55,10 @@ $(function () {
 
     // 画面模板渲染
     var render = function() {
+        // title
+        $('title').html(resumeData.baseInfo.title);
         // 首页
-        // 头像
-        $('.photo').css('background-image','url(' + resumeData.home.photo + ')');
+        $('.photo').css('background-image','url(' + resumeData.home.photo + ')'); // 头像
         $('.quote').html(resumeData.home.quote);
         $('.des-list').html(template('deslist',resumeData.home));
         // 关于我
